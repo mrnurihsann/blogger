@@ -1,0 +1,21 @@
+.text-center {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 1.5s ease;
+}
+
+.text-center.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.d-flex img {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 1.5s ease;
+}
+
+.d-flex img.show {
+  opacity: 1;
+  transform: scale(1);
+}
